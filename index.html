@@ -18,7 +18,7 @@
 	<meta property="og:description"
 		content="Je vous propose de saisir vos meilleurs moments au travers de mon regard, mon approche, ma technique." />
 	<meta property="og:image" content="http://127.0.0.1:5501/assets/images/slider/ryoji-iwata-1560.avif" />
-	
+
 	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style"
 		onload="this.onload=null;this.rel='stylesheet'">
 	<link rel="stylesheet" href="./assets/style.min.css">
@@ -61,9 +61,9 @@
 		}
 		</script>
 
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="./assets/maugallery.min.js" defer></script>
 	<script src="./assets/scripts.min.js" defer></script>
 	<title>Nina Carducci - Photographe</title>
@@ -80,7 +80,8 @@
 					<li><a href="#services">Service</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-							target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
+							target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"
+								loading="lazy"></a></li>
 				</ul>
 			</nav>
 		</div>
@@ -99,20 +100,22 @@
 						<img srcset="./assets/images/slider/ryoji-iwata-770.avif 770w, ./assets/images/slider/ryoji-iwata-1024.avif 1024w,./assets/images/slider/ryoji-iwata-1560.avif 1560w, ./assets/images/slider/ryoji-iwata-1920.avif 1920w, ./assets/images/slider/ryoji-iwata-2048.avif 2048w"
 							sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
 							src="./assets/images/slider/ryoji-iwata.avif" class="d-block"
-							alt="Un homme en costume traverse un passage piéton." width="1920" height="888">
+							alt="Un homme en costume traverse un passage piéton." width="1920" height="888"
+							loading="lazy">
 					</div>
 					<div class="carousel-item">
 						<img srcset="./assets/images/slider/nicholas-green-770.avif 770w, ./assets/images/slider/nicholas-green-1024.avif 1024w, ./assets/images/slider/nicholas-green-1560.avif 1560w, ./assets/images/slider/nicholas-green-1920.avif 1920w, ./assets/images/slider/nicholas-green-2048.avif 2048w"
 							sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
 							src="./assets/images/slider/nicholas-green.avif" class="d-block"
-							alt="Une foule de personnes levant les mains lors d'un concert." width="1920" height="888">
+							alt="Une foule de personnes levant les mains lors d'un concert." width="1920" height="888"
+							loading="lazy">
 					</div>
 					<div class="carousel-item">
 						<img srcset="./assets/images/slider/edward-cisneros-770.avif 770w, ./assets/images/slider/edward-cisneros-1024.avif 1024w, ./assets/images/slider/edward-cisneros-1560.avif 1560w, ./assets/images/slider/edward-cisneros-1920.avif 1920w, ./assets/images/slider/edward-cisneros-2048.avif 2048w"
 							sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
 							src="./assets/images/slider/edward-cisneros.avif" class="d-block"
 							alt="Deux mariés qui s'ambrassent au milieu d'une allée d'invités." width="1920"
-							height="888">
+							height="888" loading="lazy">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -134,7 +137,8 @@
 				<img srcset="./assets/images/nina-488.avif 488w,./assets/images/nina-711.avif 711w, ./assets/images/nina-1120.avif 1120w, ./assets/images/nina.avif 1460w"
 					sizes="(min-width: 2020px) 560px, (min-width: 1200px) calc(30vw - 40px), (min-width: 660px) calc(46.15vw - 75px), calc(80vw - 51px)"
 					src="./assets/images/nina.avif"
-					alt="Une jeune femme aux cheveux bouclés portant une salopette bleue." width="560" height="560">
+					alt="Une jeune femme aux cheveux bouclés portant une salopette bleue." width="560" height="560"
+					loading="lazy">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</23>
@@ -161,52 +165,60 @@
 					<img data-gallery-tag="Concert" class="gallery-item"
 						srcset="./assets/images/gallery/concerts/aaron-paul-254.avif 254w, ./assets/images/gallery/concerts/aaron-paul-608.avif 608w, ./assets/images/gallery/concerts/aaron-paul-900.avif 900w"
 						sizes="(min-width: 2020px) 440px" src="./assets/images/gallery/concerts/aaron-paul.avif"
-						alt="Scène de concert avec foule et mains levées." />
+						alt="Scène de concert avec foule et mains levées." loading="lazy" width="440" height="440" />
 
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						srcset="./assets/images/gallery/entreprise/ali-morshedlou-254.avif 254w, ./assets/images/gallery/entreprise/ali-morshedlou-608.avif 608w, ./assets/images/gallery/entreprise/ali-morshedlou-900.avif 900w"
 						sizes="(min-width: 2020px) 440px" src="./assets/images/gallery/entreprise/ali-morshedlou.avif"
-						alt="Un homme en costume et cravate se tient devant un bâtiment." />
+						alt="Un homme en costume et cravate se tient devant un bâtiment." loading="lazy" width="440"
+						height="440" />
 
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						srcset="./assets/images/gallery/entreprise/jason-goodman-254.avif 254w, ./assets/images/gallery/entreprise/jason-goodman-608.avif 608w, ./assets/images/gallery/entreprise/jason-goodman-900.avif 900w"
 						sizes="(min-width: 1400px) 626px, (min-width: 1200px) 538px, (min-width: 1000px) 456px, (min-width: 780px) 331px, (min-width: 580px) 380px, calc(148.08vw - 22px)"
 						src="./assets/images/gallery/entreprise/jason-goodman.avif"
-						alt="Une femme souriante assise dans un bureau, dégageant une atmosphère positive et professionnelle." />
+						alt="Une femme souriante assise dans un bureau, dégageant une atmosphère positive et professionnelle."
+						loading="lazy" width="440" height="440" />
 
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						srcset="./assets/images/gallery/mariage/hannah-busing-254.avif 254w, ./assets/images/gallery/mariage/hannah-busing-608.avif 608w, ./assets/images/gallery/mariage/hannah-busing-900.avif 900w"
 						sizes="(min-width: 1400px) 530px, (min-width: 1200px) 455px, (min-width: 1000px) 380px, (min-width: 780px) 280px, (min-width: 580px) 322px, calc(125.77vw - 21px)"
 						src="./assets/images/gallery/mariage/hannah-busing.avif"
-						alt="Les mains de deux personnes s'étendent l'une vers l'autre." />
+						alt="Les mains de deux personnes s'étendent l'une vers l'autre." loading="lazy" width="440"
+						height="440" />
 
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						srcset="./assets/images/gallery/portraits/ade-tunji-254.avif 254w, ./assets/images/gallery/portraits/ade-tunji-608.avif 608w, ./assets/images/gallery/portraits/ade-tunji-900.avif 900w"
 						sizes="(min-width: 2020px) 440px" src="./assets/images/gallery/portraits/ade-tunji.avif"
-						alt="Portrait d'homme barbu en t-shirt qui a les yeux plissés à cause du soleil." />
+						alt="Portrait d'homme barbu en t-shirt qui a les yeux plissés à cause du soleil." loading="lazy"
+						width="440" height="440" />
 
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						srcset="./assets/images/gallery/mariage/jakob-owens-254.avif 254w, ./assets/images/gallery/mariage/jakob-owens-608.avif 608w, ./assets/images/gallery/mariage/jakob-owens-900.avif 900w"
 						sizes="(min-width: 2020px) 440px" src="./assets/images/gallery/mariage/jakob-owens.avif"
-						alt="Deux mariés qui se sourient en se tendant par la main devant un grand palmer." />
+						alt="Deux mariés qui se sourient en se tendant par la main devant un grand palmer."
+						loading="lazy" width="440" height="440" />
 
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						srcset="./assets/images/gallery/portraits/nino-van-prattenburg-254.avif 254w, ./assets/images/gallery/portraits/nino-van-prattenburg-608.avif 608w, ./assets/images/gallery/portraits/nino-van-prattenburg-900.avif 900w"
 						sizes="(min-width: 2020px) 440px"
 						src="./assets/images/gallery/portraits/nino-van-prattenburg.avif"
-						alt="Femme avec des lunettes et un haut noir, debout devant une clôture en grillage." />
+						alt="Femme avec des lunettes et un haut noir, debout devant une clôture en grillage."
+						loading="lazy" width="440" height="440" />
 
 					<img data-gallery-tag="Concert" class="gallery-item"
 						srcset="./assets/images/gallery/concerts/austin-neill-254.avif 254w, ./assets/images/gallery/concerts/austin-neill-608.avif 608w, ./assets/images/gallery/concerts/austin-neill-900.avif 900w"
 						sizes="(min-width: 1400px) 635px, (min-width: 1200px) 546px, (min-width: 1000px) 456px, (min-width: 780px) 341px, (min-width: 580px) 386px, calc(150.77vw - 24px)"
 						src="./assets/images/gallery/concerts/austin-neill.avif"
-						alt="Une personne tenant un microphone étend son bras sur scène." />
+						alt="Une personne tenant un microphone étend son bras sur scène." loading="lazy" width="440"
+						height="440" />
 
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-254.avif 254w, ./assets/images/gallery/entreprise/mateus-campos-felipe-608.avif 608w, ./assets/images/gallery/entreprise/mateus-campos-felipe-900.avif 900w"
 						sizes="(min-width: 1400px) 692px, (min-width: 1200px) 595px, (min-width: 1000px) 497px, (min-width: 780px) 366px, (min-width: 580px) 419px, calc(163.85vw - 26px)"
 						src="./assets/images/gallery/entreprise/mateus-campos-felipe.avif"
-						alt="Une femme heureuse devant son ordinateur portable." />
+						alt="Une femme heureuse devant son ordinateur portable." loading="lazy" width="440"
+						height="440" />
 				</div>
 			</section>
 			<section class="quote">
@@ -288,15 +300,16 @@
 				<div class="picture right">
 					<img srcset=" ./assets/images/camera-418.avif 418w, ./assets/images/camera-654.avif 654w"
 						sizes="(min-width: 2020px) 418px" src="./assets/images/camera.avif" alt="Appareil photo"
-						width="418" height="418">
+						width="418" height="418" loading="lazy">
 				</div>
 			</section>
 		</article>
 	</main>
 	<footer>
 		<h2>À propos</h2>
-		<p>Nina Carducci - Photographe<br>68 avenue Alsace-Lorraine, 33200 Bordeaux<br>05 56 67 78 89<br>Lundi - vendredi de 10 h à 19 h</p>
+		<p>Nina Carducci - Photographe<br>68 avenue Alsace-Lorraine, 33200 Bordeaux<br>05 56 67 78 89<br>Lundi -
+			vendredi de 10 h à 19 h</p>
 	</footer>
 </body>
 
-</html> 
+</html>
